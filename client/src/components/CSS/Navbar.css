@@ -1,0 +1,77 @@
+.Nav_top{
+    /* overflow:hidden;
+    background-color: #e6cccc;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    z-index: 100;
+  */
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  top:0;
+  z-index: 100;
+ 
+
+}
+.Nav_logo{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-right: 20px;
+
+ 
+
+   
+}
+.Nav_logo h {
+    font-weight: 400px; 
+    color: violet;
+    font-style: bold;
+}
+.Options{
+    display: flex;
+    flex-direction: column;
+    padding:12px;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+  
+}
+.Options h:hover{
+    color: lawngreen;
+ 
+}
+.Nav_search{
+    display: flex;
+    width: 100%;
+ flex: 1; 
+margin-right: 10px;
+     border-radius: 20px; 
+
+}
+
+
+.Nav_searchInput { 
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+   border-radius: 20px;
+   border-color: mintcream;
+   
+}
+.Nav_searchIcon{
+    /* height: 12px; */
+    /* padding-block: 10px; */
+    height: 32px !important;
+    border: transparent;
+    /* background-color: rgb(238, 238, 230); */
+}
+.Nav_User{
+    display: flex;
+ padding-right: 10px;
+    border-right: 20px;
+}

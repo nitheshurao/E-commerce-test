@@ -1,0 +1,18 @@
+.body {
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.Home{
+    width: 100%;
+ 
+    mask-image: linear-gradient(to bottom, rgba(1,0, 0, 1), rgba(0, 0, 0, 1));
+     /* margin-bottom: -150px  */
+}
+.Home_img{
+    width: 100%;
+    height: 100%;
+   background-color: teal;
+}
