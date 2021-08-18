@@ -4,7 +4,7 @@ import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 const ProductDetails = (props) => {
-    // const { id, name, email } = props.location.state.product;
+    const { id, name, ima } = props.location.state.product;
     console.log(props.location)
 
     return (
@@ -13,14 +13,17 @@ const ProductDetails = (props) => {
             <div className="product">
 
                 <div className="prodcut_img">
-                    <div className="imgg">  <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/5GPhones/V224080254_IN_WL_5GPhones_MSO_GW_420x420_1._SX300_CB410934420_.jpg" /> </div>
+                    <div className="imgg">
+                        {/* <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/5GPhones/V224080254_IN_WL_5GPhones_MSO_GW_420x420_1._SX300_CB410934420_.jpg" /> */}
+                        <img className="img" src={props.location.state.product.img} />
+                    </div>
 
 
                 </div>
                 <div className="detail">
                     <h>FRAMED ART WORDK</h>
                     <hr width="95%" />
-                    <p>title  name</p>
+                    <p>title  {props.location.state.product.title}</p>
                     <p>PRODUCT DETAILS</p>
 
                     <div className="detail_img">

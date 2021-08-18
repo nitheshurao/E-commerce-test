@@ -2,12 +2,15 @@
 .imgg{
     display: flex;
     padding: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(228, 202, 202);
+    position: relative;
 }
 .prodcut_img img{
     width: 100%;
+    max-width: 200px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
+    position: relative;
 }
 
 .detail{
