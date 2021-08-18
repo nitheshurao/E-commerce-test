@@ -41,11 +41,12 @@ const Navbar = () => {
                         <input type="text" className="Nav_searchInput" />
                         <SearchIcon className="Nav_searchIcon" />
                     </div>
-                    <div className="Nav_User">
+                    <Link to='/login'>  <div className="Nav_User">
 
                         < PermIdentityIcon />
 
-                    </div>
+                    </div> </Link>
+
 
 
                 </div>

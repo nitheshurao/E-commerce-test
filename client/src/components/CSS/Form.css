@@ -1,0 +1,40 @@
+.form{
+   display: grid;
+    background-color: rgb(218, 223, 233);
+    /* display: flex; */
+  align-items: center;
+  width: 1150px;
+  justify-content: center;
+  /* padding-left: 30px; */
+ margin-left: 130px;
+ height: 700px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.form p{
+    text-align: right;
+}
+.row{
+    display: grid;
+    grid: auto / auto auto;
+   
+    grid-gap: 30px;
+    padding: 0px;
+}
+.col{
+    padding: 10px;
+    text-align: start;
+}
+.col label{
+    padding-right: 200px;
+    text-align: start;
+}
+.col input{
+    width: 240px;
+    height: 30px;
+}
+.red-star {
+    color: red;
+    font-size: 30%;
+
+
+}

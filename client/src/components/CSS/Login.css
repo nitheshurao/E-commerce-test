@@ -1,0 +1,124 @@
+
+.body {
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+
+.Login{
+     /* width: 100px; */
+background-color: thistle;
+     background-position:center;
+     background-image: url("https://images.pexels.com/photos/6481614/pexels-photo-6481614.jpeg?cs=srgb&dl=pexels-anna-tarazevich-6481614.jpg&fm=jpg");
+     mask-image: linear-gradient(to bottom, rgba(1,0, 0, 1), rgba(0, 0, 0, 1)); 
+     background-size: cover;
+
+     height: 800px;
+     /* margin-bottom: -150px  */
+}
+.Login p{
+    /* color: blanchedalmond; */
+    margin-right: 20%;
+    text-decoration: underline;
+}
+.Header{
+    padding: 10px;
+}
+.Header h1{
+    text-align: center;
+    font-size: 60px;
+}
+.Header hd{
+     font-size: 60px;
+    font-weight:100 ;
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* font-style: italic; */
+   color: rgb(3, 3, 3);
+}
+.Einput{
+    /* display: flex; */
+    padding: 10px;
+    /* margin-left: 30px;  */
+    /* position: relative; */
+    
+}
+.Einput h{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(25, 26, 26);
+    margin-left: -25%;
+
+}
+
+.Etext h{
+    /* padding-left: 30px; */
+    font-size: 60px;
+}
+
+
+.Etext{
+    height: 40px;
+    width: 30%;
+    font-size: 30px;
+    border-color: rgb(146, 148, 241);
+}
+/* //// */
+.Pinput{
+    /* display: flex; */
+    padding: 20px;
+    /* margin-left: 30px;  */
+    /* position: relative; */
+}
+.Pinput h{
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(25, 26, 26);
+    margin-left: -22%;
+  
+
+}
+
+.Ptext h{
+    /* padding-left: 30px; */
+    font-size: 60px;
+   
+}
+
+
+.Ptext{
+    height: 40px;
+    width: 30%;
+    font-size: 30px;
+    border-color: rgb(146, 148, 241);
+}
+ 
+.Btn_main{
+    position: relative;
+    /* padding: 20px; */
+    
+}
+/* .btn_2{ */
+    /* padding: 20px; */
+
+
+/* justify-items: center; */
+
+/* } */
+.btn{
+    margin: 20px;
+    background-color: #e7f0e7; /* Green */
+    border: 1p solid black;
+    /* color: rgb(10, 10, 10); */
+    padding: 15px 32px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn:hover{
+    color: cadetblue;
+    background-color: rgb(195, 238, 146);
+}

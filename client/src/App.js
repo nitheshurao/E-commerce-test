@@ -12,6 +12,8 @@ import { useEffect, useState } from 'react';
 // import axios from 'axios';
 import data from './components/api/data.json'
 import ProductList from './components/ProductList';
+import Login from './components/Login';
+import Form from './components/Form';
 
 
 function App() {
@@ -64,8 +66,22 @@ function App() {
                 product={product} />
             )}
           />
+          <Route path='/Login'
+            exact render={
+              () => (
+                <Login />
+              )
 
+            } />
+          <Route path='/form'
+            exact render={
+              () => (
+                <Form />
+              )
 
+            } />
+
+          <Route path="/productDetails" component={ProductDetails} />
 
 
           <Route path="/product/:productId"
