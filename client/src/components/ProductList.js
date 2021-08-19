@@ -16,7 +16,7 @@ const ProductList = (props) => {
     });
     return (
         <div>
-            <h1>list</h1>
+            {/* <h1>list</h1> */}
             <div className="product">
                 {renderList}
 

@@ -2,6 +2,7 @@ import React from 'react'
 import "./CSS/Home.css";
 import Footer from './Footer';
 import img from '../components/Images/homeImg.png'
+// import img from '../components/api/ganesh.jpg'
 import { Link } from 'react-router-dom';
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
 
 
             </div>
-            
+
             <Footer />
         </div >
 

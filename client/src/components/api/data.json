@@ -2,51 +2,263 @@
     {
         "id": 1,
         "title": "Ganesh",
-        "img": "https://drive.google.com/file/d/1VHtEnvLP1Q1iO3mIvSFvMOxh7_hWcS8k/view?usp=sharing"
+        "img": "img1",
+        "img": [
+            "https://images.pexels.com/photos/6913830/pexels-photo-6913830.jpeg?cs=srgb&dl=pexels-teona-swift-6913830.jpg&fm=jpg",
+            "https://images.pexels.com/photos/6913829/pexels-photo-6913829.jpeg?cs=srgb&dl=pexels-teona-swift-6913829.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 2,
-        "title": "Last Time I Committed Suicide, The",
-        "img": "https://images.pexels.com/photos/3766113/pexels-photo-3766113.jpeg?cs=srgb&dl=pexels-alex-azabache-3766113.jpg&fm=jpg"
+        "title": "Ganesh",
+        "img": "img1",
+        "img": [
+            "https://images.pexels.com/photos/5916347/pexels-photo-5916347.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5916347.jpg&fm=jpg",
+            "https://images.pexels.com/photos/5916346/pexels-photo-5916346.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5916346.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 3,
-        "title": "Jerry Seinfeld: 'I'm Telling You for the Last Time'",
-        "img": "https://images.pexels.com/photos/3801990/pexels-photo-3801990.jpeg?cs=srgb&dl=pexels-rombo-3801990.jpg&fm=jpg"
+        "title": "img3'",
+        "img": [
+            "https://images.pexels.com/photos/1262302/pexels-photo-1262302.jpeg?cs=srgb&dl=pexels-rakicevic-nenad-1262302.jpg&fm=jpg",
+            "https://images.pexels.com/photos/5591673/pexels-photo-5591673.jpeg?cs=srgb&dl=pexels-daniela-constantini-5591673.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 4,
-        "title": "Youth Without Youth",
-        "img": "https://images.pexels.com/photos/3819969/pexels-photo-3819969.jpeg?cs=srgb&dl=pexels-olenka-sergienko-3819969.jpg&fm=jpg"
+        "title": "img4",
+        "img": [
+            "https://images.pexels.com/photos/2668308/pexels-photo-2668308.jpeg?cs=srgb&dl=pexels-artem-beliaikin-2668308.jpg&fm=jpg",
+            "https://images.pexels.com/photos/4471269/pexels-photo-4471269.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4471269.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 5,
-        "title": "Happy Here and Now",
-        "img": "https://images.pexels.com/photos/6913740/pexels-photo-6913740.jpeg?cs=srgb&dl=pexels-teona-swift-6913740.jpg&fm=jpg"
+        "title": "img5",
+        "img": [
+            "https://images.pexels.com/photos/264892/pexels-photo-264892.jpeg?cs=srgb&dl=pexels-pixabay-264892.jpg&fm=jpg",
+            "https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?cs=srgb&dl=pexels-elli-1854652.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 6,
-        "title": "Wedding in Blood (Noces rouges, Les)",
-        "img": "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?cs=srgb&dl=pexels-javon-swaby-2783873.jpg&fm=jpg"
+        "title": "img6",
+        "img": [
+            "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?cs=srgb&dl=pexels-chevanon-photography-312418.jpg&fm=jpg",
+            "https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?cs=srgb&dl=pexels-chevanon-photography-302896.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 7,
-        "title": "Vampire in Venice (Nosferatu a Venezia) (Nosferatu in Venice)",
-        "img": "https://images.pexels.com/photos/3766111/pexels-photo-3766111.jpeg?cs=srgb&dl=pexels-alex-azabache-3766111.jpg&fm=jpg"
+        "title": "img7",
+        "img": [
+            "https://images.pexels.com/photos/4109077/pexels-photo-4109077.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-4109077.jpg&fm=jpg",
+            "https://images.pexels.com/photos/4004465/pexels-photo-4004465.jpeg?cs=srgb&dl=pexels-cottonbro-4004465.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 8,
-        "title": "Monty Python's The Meaning of Life",
-        "img": "https://images.pexels.com/photos/3612182/pexels-photo-3612182.jpeg?cs=srgb&dl=pexels-binoid-cbd-3612182.jpg&fm=jpg"
+        "title": "img8",
+        "img": [
+            "https://images.pexels.com/photos/4540493/pexels-photo-4540493.jpeg?cs=srgb&dl=pexels-taryn-elliott-4540493.jpg&fm=jpg",
+            "https://images.pexels.com/photos/5820040/pexels-photo-5820040.jpeg?cs=srgb&dl=pexels-maksim-goncharenok-5820040.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 9,
-        "title": "Awakening, The",
-        "img": "https://images.pexels.com/photos/3819966/pexels-photo-3819966.jpeg?cs=srgb&dl=pexels-olenka-sergienko-3819966.jpg&fm=jpg"
+        "title": "img9",
+        "img": [
+            "https://images.pexels.com/photos/949067/pexels-photo-949067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "https://images.pexels.com/photos/1630588/pexels-photo-1630588.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     },
     {
         "id": 10,
-        "title": "Trip, The",
-        "img": "https://images.pexels.com/photos/3646165/pexels-photo-3646165.jpeg?cs=srgb&dl=pexels-olenka-sergienko-3646165.jpg&fm=jpg"
+        "title": "img10",
+        "img": [
+            "https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "https://images.pexels.com/photos/2058498/pexels-photo-2058498.jpeg?cs=srgb&dl=pexels-lilartsy-2058498.jpg&fm=jpg"
+        ],
+        "name": "Nithesh",
+        "style": [
+            "Classic",
+            "Abstract",
+            "Modernism",
+            "Expressionism"
+        ],
+        "frame": [
+            "Black",
+            "White",
+            "Gold"
+        ],
+        "size": [
+            "8x10",
+            "16x20",
+            "4x6"
+        ],
+        "detail": "HOME/WAL/FRAMED ART PRINT/ SUNS"
     }
 ]

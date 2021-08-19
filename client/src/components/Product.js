@@ -29,7 +29,7 @@ const Product = (props) => {
                         {/* // {`/product/${id}`}> */}
                         <div className="product_img">
                             {/* <img className="img" src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/MSO/5GPhones/V224080254_IN_WL_5GPhones_MSO_GW_420x420_1._SX300_CB410934420_.jpg" alt="home_img" /> */}
-                            <img className="img" src={props.product.img} />
+                            <img className="img" src={props.product.img[0]} />
                         </div>
                         <div className="content">
                             <div className="header">{props.product.title}</div>

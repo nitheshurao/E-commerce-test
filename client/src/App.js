@@ -81,7 +81,7 @@ function App() {
 
             } />
 
-          <Route path="/productDetails" component={ProductDetails} />
+          <Route path="/productDetail" component={ProductDetails} />
 
 
           <Route path="/product/:productId"

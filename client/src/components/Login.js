@@ -1,5 +1,6 @@
 import React from 'react'
 import './CSS/Login.css'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
@@ -25,17 +26,21 @@ const Login = () => {
             </div>
             <p>Forgot Password</p>
             <div className="Btn_main">
-                <button className="btn"> LET'S GO</button>
+                <Link to="/form"> <button className="btn"> LET'S GO</button> </Link>
+
                 <br />
                 <h>Not a Wholsale Partner?</h>
                 <div className="btn_2">
-
-                    <button className="btn">
+                    <Link to="/"> <button className="btn">
                         KEEP BROWSING
-                    </button>
-                    <button className="btn">
-                        APPLY HERE
-                    </button>
+                    </button></Link>
+
+                    <Link to="/form">
+                        <button className="btn">
+                            APPLY HERE
+                        </button>
+                    </Link>
+
                 </div>
 
             </div>

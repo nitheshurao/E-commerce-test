@@ -20,21 +20,30 @@ const Navbar = () => {
 
                         <h>PRODUCTS</h>
 
-                    </div></Link>
+                    </div>
+
+                    </Link>
 
 
 
                     <div className="Options">
-                        <h>COLLECTIONS</h>
+                        <Link to=""> <h>COLLECTIONS</h></Link>
+
+                    </div>
+
+                    <div className="Options">
+                        <Link to="/form">    <h>OUR STORY</h></Link>
+
                     </div>
                     <div className="Options">
-                        <h>OUR STORY</h>
+                        <Link to="/">
+                            <h>ART</h>
+                        </Link>
+
                     </div>
                     <div className="Options">
-                        <h>ART</h>
-                    </div>
-                    <div className="Options">
-                        <h>WHOLESALE</h>
+                        <Link to=""> <h>WHOLESALE</h></Link>
+
                     </div>
 
                     <div className="Nav_search">

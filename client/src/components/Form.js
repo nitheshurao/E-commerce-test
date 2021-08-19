@@ -5,7 +5,7 @@ const Form = () => {
     return (
         <div>
             <form className="form">
-                <p>name</p>
+                <p> <span class="red-star">★</span> indicates a required field </p>
                 <div className="row">
 
 
@@ -25,18 +25,18 @@ const Form = () => {
                         <input type="text" placeholder="name" />
                     </div>
                     <div className="col">
-                        <label>PHONE</label>
+                        <label>PHONE <span class="red-star">★</span></label>
 
                         <br />
                         <input type="text" placeholder="name" />
                     </div>
                     <div className="col">
-                        <label>MOBILE PHONE</label>
+                        <label>MOBILE PHONE <span class="red-star">★</span></label>
                         <br />
                         <input type="text" placeholder="name" />
                     </div>
                     <div className="col">
-                        <label>EMAIL</label>
+                        <label>EMAIL <span class="red-star">★</span></label>
                         <br />
                         <input type="text" placeholder="name" />
                     </div>
@@ -48,19 +48,19 @@ const Form = () => {
                 <div className="row">
                     <div className="col">
 
-                        <label>COMPANY NAME</label>
+                        <label>COMPANY NAME <span class="red-star">★</span></label>
                         <br />
                         <input type="text" placeholder="name" />
 
                     </div>
 
                     <div className="col">
-                        <label>COMPANY WEBSITE</label>
+                        <label>COMPANY WEBSITE <span class="red-star">★</span></label>
                         <br />
                         <input type="text" placeholder="name" />
                     </div>
                     <div className="col">
-                        <label>ADRESS</label>
+                        <label>ADRESS <span class="red-star">★</span></label>
                         <br />
                         <input type="text" placeholder="name" />
                     </div>
@@ -70,7 +70,7 @@ const Form = () => {
                         <input type="text" placeholder="name" />
                     </div>
                     <div className="col">
-                        <label>STATE</label>
+                        <label>STATE<span class="red-star">★</span></label>
                         <br />
                         <input type="text" placeholder="name" />
                     </div>
