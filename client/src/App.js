@@ -9,7 +9,7 @@ import Product from './components/Product';
 import ProductDetails from './components/ProductDetails';
 
 import { useEffect, useState } from 'react';
-// import axios from 'axios';
+import axios from 'axios';
 import data from './components/api/data.json'
 import ProductList from './components/ProductList';
 import Login from './components/Login';
@@ -19,21 +19,21 @@ import Form from './components/Form';
 function App() {
   const [product, setProduct] = useState([]);
 
-  // const GetProducts = async () => {
-  //   const resposne = await axios.get("https://fakestoreapi.com/products")
-  //   console.log(resposne)
-  //     .catch((err) => {
-  //       console.log("Err: ", err);
-  //     });
-  //   setProduct(resposne.data);
+  const GetProducts = async () => {
+    const resposne = await axios.get("http://localhost:5000/posts")
 
-  // }
+      .catch((err) => {
+        console.log("Err: ", err);
+      });
+    setProduct(resposne);
+
+  }
 
 
   useEffect(() => {
     // GetProducts()
     setProduct({ data }.data)
-    // console.log(product)
+    console.log(product)
 
 
   });
